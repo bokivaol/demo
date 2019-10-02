@@ -27,6 +27,7 @@ Test could be started in different ways.
 
 To run the test:
 - Use some IDE for eg. IntelliJ.
+- Git clone both ***demo*** and ***api*** projects
 - Go into ***demo*** project in folder ```src\main\java\com\example\demo```
 - Open ```DemoApplication``` file using IntelliJ
 - Right click in the opened file
@@ -45,7 +46,7 @@ To run the test:
 To run the test:
 - Install Cmder if you are using Windows
 - Git clone both ***demo*** and ***api*** projects
-- Open one tab
+- Open one tab in Cmder
 - Navigate to ***demo*** project root folder
 - Run ```mvn spring-boot:run```
 - Open new (2nd) tab in Cmder
