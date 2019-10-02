@@ -1,6 +1,6 @@
 Integration tests for Simple Filter
 -------------------------------------
-Here are a microservice and a proxy projects which have to be cloned.
+Here are a microservice and a proxy project which have to be cloned.
 
 Proxy: ```git clone https://github.com/bokivaol/demo.git```
 
