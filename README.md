@@ -8,7 +8,7 @@ Here is a Proxy project which has to be cloned.
 - [api](https://github.com/bokivaol/api) project is created using JAVA Spring Boot.
 
 Integration test is written using JAVA Rest Assured library.
-Test class is located in [Proxy](https://github.com/bokivaol/demo) project in folder: ```src\test\java\com\example\demo\apiTests```
+Test class is located in [demo](https://github.com/bokivaol/demo) project in folder: ```src\test\java\com\example\demo\apiTests```
 
 To be able to run test:
 1. Run ```DemoApplication``` which is located in **demo** project(current project).
