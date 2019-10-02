@@ -28,15 +28,15 @@ Test could be started in different ways.
 To run the test:
 - Use some IDE for eg. IntelliJ.
 - Git clone both ***demo*** and ***api*** projects
-- Go into ***demo*** project in folder ```src\main\java\com\example\demo```
+- Using IntelliJ go into ***demo*** project in folder ```src\main\java\com\example\demo```
 - Open ```DemoApplication``` file using IntelliJ
 - Right click in the opened file
 - Click on Run
-- Go into ***api*** project in folder ```src\main\java\com\example\api```
+- Using IntelliJ go into ***api*** project in folder ```src\main\java\com\example\api```
 - Open ```ApiApplication``` file using IntelliJ
 - Right click in the opened file
 - Click on Run
-- Go into ***demo*** project in folder ```src\test\java\com\example\demo\apiTests```
+- Using IntelliJ go into ***demo*** project in folder ```src\test\java\com\example\demo\apiTests```
 - Open ```ImageTests``` file
 - Right click in the opened file
 - Click on Run
