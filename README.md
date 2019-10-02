@@ -22,7 +22,9 @@ which verify that:
 - the encoded value is in fact **test**
 
 Test could be started in different ways.
+
 ***Way No. 1 to run the tests using IDE***
+
 To run the test:
 - Use some IDE for eg. IntelliJ.
 - Go into ***demo*** project in folder ```src\main\java\com\example\demo```
@@ -37,7 +39,10 @@ To run the test:
 - Open ```ImageTests``` file
 - Right click in the opened file
 - Click on Run
+
 ***Way No. 1 to run the tests using Cmder***
+
 To run the test:
+
 If you want to test some other String value if they are encrypted, 
 you can do so by entering some String as a value of the ```String imageBodyValue``` variable.
