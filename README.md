@@ -1,10 +1,10 @@
 Integration tests for Simple Filter
 -------------------------------------
-Here are a Proxy project which have to be cloned.
+Here is a Proxy project which have to be cloned.
 
 Proxy: ```git clone https://github.com/bokivaol/demo.git```
 
-Microservice is created using JAVA Spring Boot.
+[Microservice](https://github.com/bokivaol/api) project is created using JAVA Spring Boot.
 
 Integration test is written using JAVA Rest Assured library.
 Test class is located in [Proxy](https://github.com/bokivaol/demo) project in folder: ```src\test\java\com\example\demo\apiTests```
