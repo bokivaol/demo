@@ -3,9 +3,9 @@ Integration tests for Simple Filter
 To be able to run test you have to clone both applications Microservice(project ***api***) and Proxy(project ***demo***)
 Here is a Proxy project which has to be cloned.
 
-Proxy: ```git clone https://github.com/bokivaol/demo.git```
+- ***demo project***: ```git clone https://github.com/bokivaol/demo.git```
 
-[Microservice](https://github.com/bokivaol/api) application is created using JAVA Spring Boot.
+- [api](https://github.com/bokivaol/api) project is created using JAVA Spring Boot.
 
 Integration test is written using JAVA Rest Assured library.
 Test class is located in [Proxy](https://github.com/bokivaol/demo) project in folder: ```src\test\java\com\example\demo\apiTests```
