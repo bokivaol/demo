@@ -1,6 +1,8 @@
 Integration tests for Simple Filter
 -------------------------------------
-Here are one microservice and a proxy apps.
+Here are one microservice and a proxy apps:
+```git clone https://github.com/bokivaol/demo.git```
+```git clone https://github.com/bokivaol/api.git```
 
 Request first hits the proxy which base 64 encodes value of the **image** field.
 After encryption proxy re-routes the request to created JAVA Spring Boot microservice application.
