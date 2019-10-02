@@ -1,6 +1,7 @@
 Integration tests for Simple Filter
 -------------------------------------
-To be able to run test you have to clone both applications Microservice(project ***api***) and Proxy(project ***demo***)
+To be able to run test you have to clone both applications Microservice(project ***api***) and Proxy(project ***demo***).
+
 Here is a Proxy project which has to be cloned.
 
 - ***demo project***: ```git clone https://github.com/bokivaol/demo.git```
