@@ -6,7 +6,7 @@ Here is a ***demo*** project which has to be cloned.
 
 - ***demo project***: ```git clone https://github.com/bokivaol/demo.git```
 
-- [api](https://github.com/bokivaol/api) project is created using JAVA Spring Boot.
+- ***api*** project is created using JAVA Spring Boot. It can be clonded from the following link [api](https://github.com/bokivaol/api)
 
 Integration test is written using JAVA Rest Assured library.
 Test class is located in [demo](https://github.com/bokivaol/demo) project in folder: ```src\test\java\com\example\demo\apiTests```
