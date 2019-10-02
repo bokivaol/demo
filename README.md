@@ -9,7 +9,7 @@ Microservice: ```git clone https://github.com/bokivaol/api.git```
 Microservice is created using JAVA Spring Boot.
 
 Integration test is written using JAVA Rest Assured library.
-Test class is located in folder: ```demo\src\test\java\com\example\demo\apiTests```
+Test class is located in Proxy project in folder: ```demo\src\test\java\com\example\demo\apiTests```
 
 To be able to run test:
 1. Run ```DemoApplication``` which is located in **demo** project.
