@@ -56,4 +56,4 @@ To run the test:
 - Navigate to ***demo*** project root folder
 - Run ```mvn test```
 
-If you want to test some other String value if they are encrypted, you can do so by entering some String as a value of the ```String imageBodyValue``` variable in ```ImageTests``` file.
+If you want to test some other String value if they are encrypted, you can do so by entering some String as a value of the ```String imageBodyValue``` variable which is located in ```ImageTests``` file.
