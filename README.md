@@ -40,7 +40,7 @@ To run the test:
 - Right click in the opened file
 - Click on Run
 
-***Way No. 1 to run the tests using Cmder***
+***Way No. 2 to run the tests using Cmder***
 
 To run the test:
 
