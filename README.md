@@ -43,6 +43,16 @@ To run the test:
 ***Way No. 2 to run the tests using Cmder***
 
 To run the test:
+- Install Cmder if you are using Windows
+- Git clone both ***demo*** and ***api*** projects
+- Open one tab
+- Navigate to ***demo*** project root folder
+- Run ```mvn spring-boot:run```
+- Open new (2nd) tab in Cmder
+- Navigate to ***api*** project root folder
+- Run ```mvn spring-boot:run```
+- Open new (3rd) tab in Cmder
+- Navigate to ***demo*** project root folder
+- Run ```mvn test```
 
-If you want to test some other String value if they are encrypted, 
-you can do so by entering some String as a value of the ```String imageBodyValue``` variable.
+If you want to test some other String value if they are encrypted, you can do so by entering some String as a value of the ```String imageBodyValue``` variable in ```ImageTests``` file.
