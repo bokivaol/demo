@@ -1,12 +1,23 @@
-Simple Filter
+Integration tests for Simple Filter
 -------------------------------------
-Given a Simple service **A** exposes an rest api **/api/image** and there is a proxy **demo**
-which base 64 encodes one field of the http request to service A, test if the http request passing **demo**
-is in fact base 64 encoded and the encoded field matches the field give in the request.
+Here are one microservice and a proxy apps.
 
-Steps:
-- run **demo** zuul proxy service
-- send http request to **/api/image** ( http request body: **{"image":"test"}** )
-- verify **test** value after passing **demo** proxy is base 64 encoded
-- verify the encoded value is in fact **test**
-- automate the 2 verify steps (eg. in Python)
+Request first hits the proxy which base 64 encodes value of the **image** field.
+After encryption proxy re-routes the request to created JAVA Spring Boot microservice application.
+
+Integration test is written using JAVA Rest Assured library.
+Test class is located in folder: ```demo\src\test\java\com\example\demo\apiTests```
+
+To be able to run test:
+1. Run ```DemoApplication``` which is located in **demo** project.
+2. Run ```ApiApplication``` which is located in **api** project.
+
+***Both these applications must be up and running before tests are started.***
+
+In the ```ImageTests``` class there is one test, but inside of the test there are 2 assertions
+which verify that:
+- **test** value after passing **demo** proxy is base 64 encoded
+- the encoded value is in fact **test**
+
+If you want to test some other String value if they are encrypted, 
+you can do so by entering some String as a value of the ```String imageBodyValue``` variable.
