@@ -11,8 +11,8 @@ Integration test is written using JAVA Rest Assured library.
 Test class is located in [demo](https://github.com/bokivaol/demo) project in folder: ```src\test\java\com\example\demo\apiTests```
 
 To be able to run test:
-1. Run ```DemoApplication``` which is located in **demo** project(current project).
-2. Run ```ApiApplication``` which is located in [api](https://github.com/bokivaol/api) project.
+1. Run ```DemoApplication``` class which is located in **demo** project(current project).
+2. Run ```ApiApplication``` class which is located in [api](https://github.com/bokivaol/api) project.
 
 ***Both these applications must be up and running before tests are started.***
 
